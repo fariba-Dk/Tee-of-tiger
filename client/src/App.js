@@ -8,11 +8,14 @@ import Home from './routes/Home'
 import Posts from './routes/Posts'
 import UpdatePost from './routes/UpdatePost'
 import PostDetail from './routes/UpdatePost'
+import NavBar from './components/Nav'
 
 
 function App() {
   return (
     <div>
+
+      <NavBar/>
 
       <Routes>
 
